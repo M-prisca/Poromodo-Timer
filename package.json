@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+   "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "A minimalist web application that combines the Pomodoro technique with a weekly deep work tracker. \r Built with **TypeScript**, **Tailwind CSS**, and **HTML**.",
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
@@ -18,5 +19,13 @@
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-prisca/Poromodo-Timer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/M-prisca/Poromodo-Timer/issues"
+  },
+  "homepage": "https://github.com/M-prisca/Poromodo-Timer#readme"
 }
